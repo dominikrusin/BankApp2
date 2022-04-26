@@ -48,4 +48,10 @@ public class Account {
         System.out.println("Account number :"+accNumber);
         System.out.println("Balance :"+balance);
     }
+    public void depositeMoney(){
+        System.out.println("How much You want to deposite?: ");
+        long amount = scanner.nextLong();
+        balance = balance + amount;
+        System.out.println("Your balance ic: " + balance);
+    }
 }

@@ -11,11 +11,13 @@ public class BankApp {
         System.out.println("Enter your choice");
         int choice ;
         choice = scanner.nextInt();
-        switch (choice){
+        switch (choice) {
             case 1:
                 account.showAccount();
+
+            case 2:
+                account.depositeMoney();
+
         }
-
-
     }
 }
